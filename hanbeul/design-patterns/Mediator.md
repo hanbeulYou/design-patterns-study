@@ -1,8 +1,8 @@
-# ✨ Mediator/Middleware 패턴
+# ✨ Mediator 패턴
 
 ## 1. 패턴 정의: 정의와 핵심 요약
 
-- Mediator/Middleware 패턴은 여러 컴포넌트(객체) 간 직접 통신을 막고, 중간 매개체를 통해 메시지나 요청을 전달함으로써 결합도를 낮추는 패턴이다.
+- Mediator 패턴은 여러 컴포넌트(객체) 간 직접 통신을 막고, 중간 매개체를 통해 메시지나 요청을 전달함으로써 결합도를 낮추는 패턴이다.
 - 컴포넌트들이 서로 직접 참조하지 않고, 중앙의 매개체만을 통해 활동하며 내부 구조를 분리할 수 있다.
 
 ## 2. 사용 목적: 이 패턴이 필요한 이유
@@ -13,7 +13,7 @@
 
 ## 3. 패턴 설명: 동작 방식과 구성 요소
 
-![Mediator-Middleware](./images/mediator-structure.png)
+![Mediator](./images/mediator-structure.png)
 
 > 구성 요소
 
